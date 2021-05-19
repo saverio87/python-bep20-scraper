@@ -5,15 +5,18 @@ import re
 
 # Variables
 
+USERNAME = ""
+PASSWORD = ""
+
 # Limit of submissions per subreddit
 NUMBER_OF_SUBMISSIONS = '10'
 # Creating client object for Reddit
 reddit = praw.Reddit(
     client_id="3_RyX8HoZn59Lw",
     client_secret="aHMyns1xzUvBrvPmLFD67CBg1hQVcQ",
-    password="c5h11cok",
-    user_agent="testscript by u/leparisien84",
-    username="leparisien84",
+    password=PASSWORD,
+    username=USERNAME,
+    user_agent="testscript by ...",
 )
 
 # Links
